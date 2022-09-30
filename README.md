@@ -2,7 +2,7 @@
 
 ## CSS
 
-1. [Pomodor Timer](https://www.google.pl/){:target="\_blank"}
+1. [Pomodor Timer](https://www.google.pl/)
 2. soon
 
 ## JS
