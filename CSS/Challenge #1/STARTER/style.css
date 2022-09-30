@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./fonts/bebasneue-book-webfont.woff") format("woff"),
+    url("./fonts/bebasneue-book-webfont.woff2") format("woff2");
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2a30;
+}
+
+.wrapper {
+  position: relative;
+  width: 518px;
+  height: 518px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: -5px 14px 44px #000000, 5px -16px 50px rgba(255, 255, 255, 0.15);
+}
+
+.ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  stroke: #09a65a;
+}
+
+.ring.ending {
+  stroke: red;
+}
+
+.timer {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: radial-gradient(71.4% 71.4% at 51.7% 28.6%, #3a393f 0%, #17171a 100%);
+  box-shadow: inset 0px 0px 114px rgba(0, 0, 0, 0.45);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.time {
+  display: flex;
+  font-family: "Bebas Neue";
+  font-size: 196px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  width: 150px;
+  height: 170px;
+  border: 0;
+  background: none;
+  font-family: "Bebas Neue";
+  font-size: 196px;
+  color: #fff;
+  text-align: center;
+  outline: none;
+  border-bottom: 1px dashed #fff;
+}
+
+input[type="text"]:disabled {
+  border-bottom: none;
+}
+
+.start {
+  margin-bottom: 20px;
+  margin-left: 14px;
+  background: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.start:hover {
+  opacity: 1;
+}
+
+.settings {
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.settings:hover {
+  opacity: 1;
+}
