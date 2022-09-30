@@ -1,6 +1,6 @@
 # Live
 
-[Code](https://silvervian.github.io/Advent-of-JS-CSS-2021/CSS/Challenge%20%231/STARTER)
+[Pomodoro Timer Live](https://silvervian.github.io/Advent-of-JS-CSS-2021/CSS/Challenge%20%231/STARTER)
 
 # Brief
 
