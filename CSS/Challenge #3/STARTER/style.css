@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #37b2c3;
+}
+
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-key {
+  fill: white;
+}
+
+a:hover .white-key {
+  fill: #ffd200;
+}
+
+.black-key {
+  fill: black;
+}
+
+a:hover .black-key {
+  fill: #f40082;
+}
